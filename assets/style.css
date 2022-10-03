@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+.rate-page {
+    background-color: hsl(213, 19%, 18%);
+    width: 500px;
+    border-radius: 15px;
+    padding: 30px;
+    color: #fff;
+}
+.circle {
+    margin: 16px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-star {
+    margin: 16px;
+}
+.icon-star img {
+    height: 30px;
+    width: 30px;
+}
+.card-heading {
+    margin: 16px;
+}
+.card-text {
+    margin: 16px;
+    font-size: 15px;
+}
+.card-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 16px;
+}
+.rate-point {
+    border: none;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 54%);
+}
+.rate-point:hover{
+    background-color:  hsl(25, 97%, 53%);
+}
+.submit-btn {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    margin: 8px 0;
+    background-color: hsl(25, 97%, 53%);
+}
+.submit-btn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    font-weight: 600;
+}
+.attribution{
+    margin-top: 50px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+.attribution a{
+    text-decoration: none;
+    color: hsl(25, 97%, 53%);
+}
